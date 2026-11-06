@@ -1,0 +1,7 @@
+{
+  "name": "agenda-barbearia-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "npx serve .", "test": "node --test" }
+}

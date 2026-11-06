@@ -1,0 +1,13 @@
+:root { color-scheme: dark; --ink: #0c0f17; --card: #141926; --destaque: #ffbe5c; --texto: #eef2fa; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--ink); color: var(--texto); font: 16px/1.5 system-ui, sans-serif; }
+main { max-width: 480px; margin: 0 auto; padding: 32px 16px; }
+h1 { margin: 0; font-size: 40px; color: var(--destaque); }
+.sub { color: #aab4c8; }
+label { display: block; margin: 16px 0; }
+select, input { display: block; width: 100%; margin-top: 6px; padding: 12px; border: 1px solid #2a3145; border-radius: 10px; background: var(--card); color: inherit; font: inherit; }
+.grade { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.grade button { padding: 10px 0; border: 1px solid #2a3145; border-radius: 10px; background: var(--card); color: inherit; font: inherit; cursor: pointer; }
+.grade button.ativo { background: var(--destaque); color: var(--ink); }
+#confirmar { width: 100%; padding: 14px; border: 0; border-radius: 12px; background: var(--destaque); color: var(--ink); font: 600 16px system-ui; cursor: pointer; }
+#confirmar:disabled { opacity: .4; cursor: not-allowed; }

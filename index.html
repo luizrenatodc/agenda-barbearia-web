@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Navalha · Agendamento online</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<main>
+  <h1>Navalha</h1>
+  <p class="sub">Barbearia fictícia. Escolha o serviço, o dia e o horário.</p>
+  <label>Serviço <select id="servico"></select></label>
+  <label>Dia <input id="dia" type="date"></label>
+  <div id="horarios" class="grade" aria-label="Horários disponíveis"></div>
+  <label>Seu nome <input id="nome" autocomplete="name"></label>
+  <button id="confirmar" disabled>Confirmar horário</button>
+  <p id="aviso" role="status"></p>
+  <h2>Meus horários</h2>
+  <ul id="lista"></ul>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>
