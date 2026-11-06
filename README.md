@@ -6,6 +6,10 @@ Página de agendamento em que o cliente escolhe serviço, dia e horário em pouc
 
 **Demonstração:** https://luizrenatodc.github.io/agenda-barbearia-web/
 
+## Veja funcionando
+
+<p align="center"><img src="docs/escolha.png" width="46%" alt="Escolha de serviço, dia e horário"> <img src="docs/confirmado.png" width="46%" alt="Horário confirmado"></p>
+
 ## O problema
 
 Em uma barbearia, o barbeiro está com as mãos ocupadas e não consegue responder mensagem para marcar horário. O cliente quer ver o que está livre e confirmar na hora, sem instalar nada.
